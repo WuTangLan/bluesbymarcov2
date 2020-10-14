@@ -1,0 +1,56 @@
+/* Ovdje se nalaze glavne definicije izgleda stranice, sidebar navigacije i content-a unutar nje  */
+a{
+	color: #000000!important;
+}
+.side-cont{
+	width:300px;
+	height:100%;
+	position: fixed;
+	background-color:#f6f5f5;
+	padding: 15px;
+}
+.main-cont{
+	width: calc(100% - 300px);
+
+	background-color: #f3e6e3;
+	margin-left: 300px;
+	padding: 15px;
+}
+#head-text{
+	font-size: 25px;
+	text-align: center;
+}
+#profile-img{
+	height: 190px;
+	width: 190px;
+	position: relative;
+	border-radius:  100pt;
+}
+.navigacija{
+	text-align: center;
+	font-size: 20px;
+}
+#follow-text{
+	font-size: 20px;
+	text-align: center;
+}
+.ikone{
+	font-size: 40px;
+	margin-right: 10px;
+}
+.Follow-ikone{
+	padding-top: 15px;
+	width: 100%;
+	text-align:center;
+}
+a .ikone{
+	color: black!important;
+}
+.footer{
+		width: calc(100% - 300px);
+height: 500px;
+	background-color:#f3e6e3;
+	margin-left: 300px;
+	padding: 15px;
+}
+/*  #37474F
